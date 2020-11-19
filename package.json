@@ -5,7 +5,7 @@
    "main": "index.html",
    "repository": {
       "type": "git",
-      "url": ""
+      "url": "https://kennethkeim@bitbucket.org/electroninnovations/buff-website.git"
    },
    "scripts": {},
    "author": "Electron Innovations",
