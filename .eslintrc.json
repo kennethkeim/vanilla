@@ -1,0 +1,22 @@
+{
+   "extends": ["eslint:recommended", "prettier", "eslint-config-prettier"],
+   "env": {
+      "browser": true,
+      "es6": true
+   },
+   "parserOptions": {
+      "sourceType": "module"
+   },
+   "rules": {
+      "max-len": ["warn", { "code": 120 }],
+      "max-lines": [
+         "warn",
+         { "max": 400, "skipComments": false, "skipBlankLines": false }
+      ],
+      "max-lines-per-function": ["warn", 75],
+      "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
+      "no-trailing-spaces": "error",
+      "prefer-const": "error",
+      "quote-props": ["warn", "as-needed"]
+   }
+}

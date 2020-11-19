@@ -1,0 +1,55 @@
+/* https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e */
+
+/************************* ELEMENTS *************************/
+/*** box sizing border-box for all elements ***/
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+/* buttons, links, and lists */
+a {
+   text-decoration: underline;
+   color: #333;
+}
+a:hover {
+   color: inherit;
+}
+a:focus {
+   outline: none !important;
+}
+button:focus {
+   outline: none !important;
+}
+input:focus {
+   outline: none !important;
+}
+select:focus {
+   outline: none !important;
+}
+textarea:focus {
+   outline: none !important;
+}
+button {
+   background-color: transparent;
+   color: inherit;
+   border-width: 0;
+}
+
+/************************* TYPOGRAPHY *************************/
+
+html {
+   font-size: 18px;
+}
+
+body {
+   /* extra fonts function as a fallback in case our fonts fail */
+   font-family: Roboto, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   line-height: 1.3;
+   color: #333;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   font-weight: 400;
+}

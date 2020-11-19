@@ -1,0 +1,20 @@
+{
+   "name": "buffalo-river-website",
+   "version": "0.0.1",
+   "description": "Website for Buffalo River Truss",
+   "main": "index.html",
+   "repository": {
+      "type": "git",
+      "url": ""
+   },
+   "scripts": {},
+   "author": "Electron Innovations",
+   "license": "UNLICENSED",
+   "private": true,
+   "dependencies": {},
+   "devDependencies": {
+      "eslint": "^7.13.0",
+      "eslint-config-prettier": "^6.15.0",
+      "prettier": "^2.1.2"
+   }
+}
