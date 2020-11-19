@@ -2,12 +2,15 @@
    "name": "buffalo-river-website",
    "version": "0.0.1",
    "description": "Website for Buffalo River Truss",
-   "main": "index.html",
+   "main": "./dist/index.html",
    "repository": {
       "type": "git",
       "url": "https://kennethkeim@bitbucket.org/electroninnovations/buff-website.git"
    },
-   "scripts": {},
+   "scripts": {
+      "start": "parcel serve './src/index.html'",
+      "build": "parcel build './src/index.html'"
+   },
    "author": "Electron Innovations",
    "license": "UNLICENSED",
    "private": true,
@@ -15,6 +18,7 @@
    "devDependencies": {
       "eslint": "^7.13.0",
       "eslint-config-prettier": "^6.15.0",
+      "parcel": "^2.0.0-beta.1",
       "prettier": "^2.1.2"
    }
 }
